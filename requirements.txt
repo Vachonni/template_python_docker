@@ -1,0 +1,12 @@
+stable-baselines3>=2.0.0a4
+shimmy>=0.2.1
+# box2d-py
+# numpy
+# pandas
+# matplotlib
+kaggle_environments==1.12.0
+gym==0.26.2
+# torch
+ipython==8.14.0
+ipykernel==6.23.2
+azureml-core==1.52.0

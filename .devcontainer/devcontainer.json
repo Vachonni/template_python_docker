@@ -1,0 +1,30 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.183.0/containers/docker-existing-dockerfile
+{
+	"name": "__XXXXX__",
+
+	// Sets the run context of Docker build to one level up instead of the .devcontainer folder.
+	"context": "..",
+
+	// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
+	"dockerFile": "Dockerfile", //"<PATH TO DOCKERFILE FROM HERE",
+
+	// Set *default* container specific settings.json values on container create.
+    "customizations": {
+        "vscode": {
+            "extensions": [
+		        "ms-python.python",
+				"ms-toolsai.jupyter",
+				"mikestead.dotenv",	
+				"shd101wyy.markdown-preview-enhanced",
+				"GitHub.copilot-nightly"
+	        ] }},
+
+	"mounts": [
+		"source=<path to local folder __XXXXX__>,target=/home/__XXXXX__,type=bind,consistency=cached"
+	  ],
+	  
+	"runArgs": [
+		"--env-file","${localWorkspaceFolder}/.devcontainer/devcontainer.env"
+		]
+}
