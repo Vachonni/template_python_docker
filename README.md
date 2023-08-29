@@ -2,12 +2,13 @@
 
 ## How to use
 
-1. git clone this template
-2. Change all \_\_XXXXX\_\_ values with the name of your project
-3. **Uncomment #\*devcontainer.env\* in .gitignore file** to keep your secrets local
-3. Change folder name to \<new folder name\>
-4. Create repo \<new folder name\> on Git Hub 
-5. git push --set-upstream origin \<new folder name\>
+1. Create a new repo on GitHub using this template
+2. git clone the new repo
+3. Open repo in VSCode. **Do NOT open in container now**
+4. Change all \_\_XXXXX\_\_ values with \<new project name\>
+5. **IMPORTANT:** Uncomment #\*devcontainer.env\* in .gitignore fileto keep your secrets local
+6. Reopen in container
+
 
 
 
