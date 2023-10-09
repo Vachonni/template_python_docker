@@ -2,3 +2,4 @@
 *pycache*
 *egg-info*
 #*devcontainer.env*
+#*devcontainer.json*
