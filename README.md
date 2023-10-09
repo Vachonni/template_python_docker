@@ -7,9 +7,10 @@
 3. Open repo in VSCode. **Do NOT open in container now**
 4. Change all \_\_XXXXX\_\_ values with \<new project name\>
 5. In README.md, update project description and delete all lines until #\<new project name\>
-6. **IMPORTANT:** Uncomment #\*devcontainer.env\* in .gitignore fileto keep your secrets local
-7. Push changes to GitHub
-8. Reopen in container
+6. **IMPORTANT:** Uncomment #\*devcontainer.env\* in .gitignore file to keep your secrets local
+7. **IMPORTANT:** Uncomment #\*devcontainer.json\* in .gitignore and personalize the file (update your mount, choose your VSCODE extensions,...)
+8. Push changes to GitHub
+9. Reopen in container
 
 
 
